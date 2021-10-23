@@ -9,4 +9,4 @@ Approach_1: fine tuning the pretrained models using the weighted cross-entropy l
 Approach_2: fine tuning the pretrained models using the image augmentation to handle the unbalanced class distribution.
 Approach_3: fine tuning the pretrained models using the undersampling to handle the unbalanced class distribution.
 Approach_4: fine tuning the pretrained models using the oversampling to handle the unbalanced class distribution.
-Approach_5: fine tuning the pretrained models using the hybrid sampling to handle the unbalanced class distribution. We also demonstrate ensemble learning of deep CNNs using majority hard and soft voting strategies.
+Approach_5: fine tuning the pretrained models using the hybrid sampling to handle the unbalanced class distribution. We also demonstrate ensemble learning of deep CNNs using majority hard and soft voting strategies. 
