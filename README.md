@@ -4,3 +4,9 @@ Initially, we preprocessed and segmented the lung regions usingDeepLabV3+ method
 This repository contains matlab and python files.
 Matlab files contain source code for image preprocessing, lung segmentation, data partition and data augmentation.
 Python files contain source code for fine tuning the pretrained CNNs with different approaches to handle the unbalanced class distribution.
+Apporach_0: fine tuning the pretrained models with categorial cross-entopy loss.
+Approach_1: fine tuning the pretrained models using the weighted cross-entropy loss to handle the unbalanced class distribution.
+Approach_2: fine tuning the pretrained models using the image augmentation to handle the unbalanced class distribution.
+Approach_3: fine tuning the pretrained models using the undersampling to handle the unbalanced class distribution.
+Approach_4: fine tuning the pretrained models using the oversampling to handle the unbalanced class distribution.
+Approach_5: fine tuning the pretrained models using the hybrid sampling to handle the unbalanced class distribution.
