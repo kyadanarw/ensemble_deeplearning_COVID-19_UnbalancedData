@@ -13,13 +13,13 @@ We demonstrates ensemble deep learning to classify COVID-19, viral pneumonia and
 * [Introduction ](#introduction) 
 * [Software Requirements](#software-requirements) 
 * [Getting Started](#getting-started)
-* [Folder Structure](#folder_structure)
-* [Running Matlab files](#running jupternotebook)
-* [Running the Jupyter Notebook](#running jupternotebook)
-* [Classify Normal, Pneumonia and COVID-19 X-rays](#classify_x-rays)
-* [Project Results](#project_resultss)
-* [Link to the Publication](#pulication-link)
-* [Authors](#author)
+* [Folder Structure](#folder-structure)
+* [Running Matlab files](#running-matlab-files)
+* [Running the Jupyter Notebooks](#running-the-jupyter-notebooks)
+* [Classify Chest Xrays Images](#classify-chest-xrays-images)
+* [Project Results](#project-results)
+* [Link to the Publication](#link-to-the-publication)
+* [Authors](#authors)
 * [Project Motivation](#project-motivation)
 * [References](#references)
 
@@ -42,14 +42,16 @@ We demonstrates ensemble deep learning to classify COVID-19, viral pneumonia and
 
 ## Running Matlab files
 
-## Running the Jupyter Notebook
+## Running the Jupyter Notebooks
 
-## Classify Normal, Pneumonia and COVID-19 X-rays
+## Classify Chest Xrays Images
 
 ## Project Results
 
 ## Link to the Publication
 
-## Project Results
+## Authors
+
+## Project Motivation
 
 ## References
