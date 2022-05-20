@@ -64,6 +64,21 @@ we developed and trained DeepLabV3+-based lung segmentation using a combined dat
 ## Running the Jupyter Notebooks
 
 ## Classify Chest Xrays Images
+<p align="justify">Predict the test data using this code.</p>
+
+![Predict](https://github.com/kyadanarw/Ensemble-Deep-Learning-for-the-Detection-of-COVID-19-in-Unbalanced-Chest-X-ray-Dataset/blob/DeepLearning/Images/Preddict_new_images.png)
+
+<p align="justify">Plot ROC curve using the following code, make sure to call get_roc_curve function to your notebook.</p>
+
+![PlotROC](https://github.com/kyadanarw/Ensemble-Deep-Learning-for-the-Detection-of-COVID-19-in-Unbalanced-Chest-X-ray-Dataset/blob/DeepLearning/Images/Plot_ROC_curve.png)
+
+<p align="justify">Evaluate the performance of the algorithm with different performance measures using the following code.</p>
+
+![Evaluation](https://github.com/kyadanarw/Ensemble-Deep-Learning-for-the-Detection-of-COVID-19-in-Unbalanced-Chest-X-ray-Dataset/blob/DeepLearning/Images/EvaluationMetrics.png)
+
+<p align="justify">Visualize the indicative regions of the COVID_19 using the following code.</p>
+
+![Grad-CAM](https://github.com/kyadanarw/Ensemble-Deep-Learning-for-the-Detection-of-COVID-19-in-Unbalanced-Chest-X-ray-Dataset/blob/DeepLearning/Images/GradCam_Map.png)
 
 ## Project Results
 <p align="justify">Lung segementation using deeplabv3+ and Xception model.</p>
@@ -75,6 +90,12 @@ we developed and trained DeepLabV3+-based lung segmentation using a combined dat
 ![EnsembleResult](https://github.com/kyadanarw/Ensemble-Deep-Learning-for-the-Detection-of-COVID-19-in-Unbalanced-Chest-X-ray-Dataset/blob/DeepLearning/Images/Ensemble%20Results.png)
 
 <p align="justify">ROC curves of ensemble classifiers of different apporaches.</p>
+
+![ROC_Curve](https://github.com/kyadanarw/Ensemble-Deep-Learning-for-the-Detection-of-COVID-19-in-Unbalanced-Chest-X-ray-Dataset/blob/DeepLearning/Images/applsci-11-10528-g016-550.jpg)
+
+<p align="justify">The indicative regions of COVID-19 biomarkers highlighted by DenseNet201.</p>
+
+![HeatMap](https://github.com/kyadanarw/Ensemble-Deep-Learning-for-the-Detection-of-COVID-19-in-Unbalanced-Chest-X-ray-Dataset/blob/DeepLearning/Images/applsci-11-10528-g017-550.jpg)
 
 
 ## Link to the Publication
