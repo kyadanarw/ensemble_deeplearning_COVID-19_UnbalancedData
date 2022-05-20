@@ -66,6 +66,11 @@ we developed and trained DeepLabV3+-based lung segmentation using a combined dat
 ## Classify Chest Xrays Images
 
 ## Project Results
+<p align="justify">Lung segementation using deeplabv3+ and Xception model.</p>
+
+![Screenshot]([screenshot.png](https://github.com/kyadanarw/Ensemble-Deep-Learning-for-the-Detection-of-COVID-19-in-Unbalanced-Chest-X-ray-Dataset/blob/DeepLearning/Images/applsci-11-10528-g005-550.jpg))
+
+<p align="justify">We achieved the highest accuracy of 99.23% and an AUC of 99.97% using an ensemble classifier of XceptionNet, MobileNetV2, DensetNet201, InceptionResNetV2 and NasNetMobile with image augmentation.</p>
 
 ## Link to the Publication
 https://doi.org/10.3390/app112210528
