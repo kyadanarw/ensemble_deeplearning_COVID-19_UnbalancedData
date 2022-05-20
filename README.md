@@ -56,10 +56,17 @@ we developed and trained DeepLabV3+-based lung segmentation using a combined dat
 * the COVID-19 Radiography Database https://www.kaggle.com/tawsifurrahman/covid19-radiography-database 
 
 ## Getting Started
+###Make sure Matlab and Python 3 is installed.
+Clone the repository and navigate to the project's root directory in the terminal
+Download the cats dataset. Unzip the folder and place the images in the cloned repository in the folder cats. If the folder does not exist yet, please create one.
+Download the dogs dataset. Unzip the folder and place the images in the cloned repository in the folder dogs. If the folder does not exist yet, please create one.
+Download the wilds dataset. Unzip the folder and place the images in the cloned repository in the folder wilds. If the folder does not exist yet, please create one.
+Start the notebook CNN with Transfer Learning for Multi-Class Classification.ipynb.
 
 ## Folder Structure
 
 ## Running Matlab files
+Make sure Matlab 2020a or later version is installed.
 
 ## Running the Jupyter Notebooks
 
