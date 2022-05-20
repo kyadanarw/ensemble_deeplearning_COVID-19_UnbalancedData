@@ -39,7 +39,7 @@ How I proceeded exactly and what results I achieved can be read in my paper. htt
 
 ## Software Requirements
 Required libraries:
-* Matlab 2020A and later veriosns
+* Matlab 2020A and later versions
 * Python 3.x
 * Scikit-Learn
 * Keras
