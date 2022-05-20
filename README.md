@@ -10,6 +10,7 @@ How I proceeded exactly and what results I achieved can be read in my paper. htt
 ## Table of contents
 * [Introduction ](#introduction) 
 * [Software Requirements](#software-requirements) 
+* [Data](#data) 
 * [Getting Started](#getting-started)
 * [Folder Structure](#folder-structure)
 * [Running Matlab files](#running-matlab-files)
@@ -47,6 +48,12 @@ Required libraries:
 * Pandas
 * Matplotlib
 * OpenCV
+## Data
+we developed and trained DeepLabV3+-based lung segmentation using a combined dataset from Montgomery (MC), Shenzhen, and Japanese Society of Radiological Technology (JSRT) databases. The COVID-19 Radiography Database is used for classification of COVID-19 from normal and pneumonia chest x-rays.
+* Montgomery Dataset
+* Shenzhen Dataset 
+* Japanese Society of Radiological Technology (JSRT) Dataset
+* the COVID-19 Radiography Database https://www.kaggle.com/tawsifurrahman/covid19-radiography-database 
 
 ## Getting Started
 
@@ -61,9 +68,15 @@ Required libraries:
 ## Project Results
 
 ## Link to the Publication
+https://doi.org/10.3390/app112210528
 
 ## Authors
+* Khin Yadanar Win
+* Syna Sreng
 
 ## Project Motivation
+<p align="justify"> I've been working on medical image analysis using image processing and machine learning since 2015. The list of my publications can be found on https://www.researchgate.net/profile/Khin-Win-13. I also publish individual interesting sections from my publications in separate repositories to make their access even easier. </p>
 
 ## References
+The full list of the references can be found in the paper.
+Transfer learning .ipynb files are inspired by Coursera's AI for Medicine course. 
