@@ -22,12 +22,7 @@ How I proceeded exactly and what results I achieved can be read in my paper. htt
 * [References](#references)
 
 ## Introduction 
-<p align="justify"> This repository contains matlab and python files. Matlab files contain source code for image preprocessing, lung segmentation, data partition and data augmentation.Python files contain source code for fine tuning the pretrained CNNs with different approaches to handle the unbalanced class distribution. 
-</p>
-
-* The image preprocessing is performed using meidan filter and adaptive histogram equalization to filter the noises and enahnce the contrast of the images (Preprocessing_Images.m).
-* DeeplabV3+ with Xception backbone is used as a semantic segmentation algorithm to segregate the lung regions from chest x-rays (Train_LungSegmentation_DeepLab.m). 
-* The image files are randomly partitioned into train, test and validation for model training and testing.
+<p align="justify"> This repository contains matlab and python files. Matlab files contain source code for image preprocessing, lung segmentation, data partition and data augmentation.Python files contain source code for fine tuning the pretrained CNNs. The following six different approaches are compared to handle the unbalanced class distribution. </p>
 
 * Apporach_0: fine tuning the pretrained models with categorial cross-entopy loss.
 * Approach_1: fine tuning the pretrained models using the weighted cross-entropy loss to handle the unbalanced class distribution.
@@ -48,7 +43,7 @@ Required libraries:
 * Matplotlib
 * OpenCV
 ## Data
-we developed and trained DeepLabV3+-based lung segmentation using a combined dataset from Montgomery (MC), Shenzhen, and Japanese Society of Radiological Technology (JSRT) databases. The COVID-19 Radiography Database is used for classification of COVID-19 from normal and pneumonia chest x-rays.
+We developed and trained DeepLabV3+-based lung segmentation using a combined dataset from Montgomery (MC), Shenzhen, and Japanese Society of Radiological Technology (JSRT) databases. The COVID-19 Radiography Database is used for classification of COVID-19 from normal and pneumonia chest x-rays.
 * Montgomery Dataset
 * Shenzhen Dataset 
 * Japanese Society of Radiological Technology (JSRT) Dataset
