@@ -55,7 +55,7 @@ we developed and trained DeepLabV3+-based lung segmentation using a combined dat
 * the COVID-19 Radiography Database https://www.kaggle.com/tawsifurrahman/covid19-radiography-database 
 
 ## Getting Started
-### Make sure Matlab and Python 3 is installed.
+#### Make sure Matlab and Python 3 is installed.
 
  1. Clone the repository and navigate to the project's root directory in the terminal
 2. Download the mongometry, shenzen and jsrt dataset. Unzip the folder and place original images and their groundtruth label in seperate folders.
@@ -66,7 +66,18 @@ we developed and trained DeepLabV3+-based lung segmentation using a combined dat
 
 
 ## Running Matlab files
-Make sure Matlab 2020a or later version is installed.
+* First run the Train_LungSegmentation_DeepLab.m to train the Deeplabv3 based semantic segmentation model using the combined dadataset of mongomery, shenzen and JSRT.<br/>
+* Save the trained semantic segmentation model.<br/>
+* Then run Test_LungSegmentation.m to segment and crop the lung regions from chest x-rays of COVID-19 dataset and place the cropped images in one folder.
+Here are the results of the lung segmentation, first image is semantic label, second one is binary map of segmented lung RIO and the last one is cropped lung RIO:
+
+![Semantic](https://github.com/kyadanarw/Ensemble-Deep-Learning-for-the-Detection-of-COVID-19-in-Unbalanced-Chest-X-ray-Dataset/blob/DeepLearning/Images/semantic56.jpg)
+
+![BinaryMap](https://github.com/kyadanarw/Ensemble-Deep-Learning-for-the-Detection-of-COVID-19-in-Unbalanced-Chest-X-ray-Dataset/blob/DeepLearning/Images/lung56.jpg) 
+
+![CroppedLung](https://github.com/kyadanarw/Ensemble-Deep-Learning-for-the-Detection-of-COVID-19-in-Unbalanced-Chest-X-ray-Dataset/blob/DeepLearning/Images/lung56_pixels.jpg)
+
+Run Preprocessing_Images.m to improve the quality of the image before inputing into deep learning for prediction of COVID-19.
 
 ## Running Python Jupyter Notebooks
 Import all necessary libraries and execute all .ipynb files and save the trained models. <br/>
