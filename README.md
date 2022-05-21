@@ -12,9 +12,8 @@ How I proceeded exactly and what results I achieved can be read in my paper. htt
 * [Software Requirements](#software-requirements) 
 * [Data](#data) 
 * [Getting Started](#getting-started)
-* [Folder Structure](#folder-structure)
 * [Running Matlab files](#running-matlab-files)
-* [Running the Jupyter Notebooks](#running-the-jupyter-notebooks)
+* [Running Python Jupyter Notebooks](#running-python-jupyter-notebooks)
 * [Classify Chest Xrays Images](#classify-chest-xrays-images)
 * [Project Results](#project-results)
 * [Link to the Publication](#link-to-the-publication)
@@ -56,19 +55,34 @@ we developed and trained DeepLabV3+-based lung segmentation using a combined dat
 * the COVID-19 Radiography Database https://www.kaggle.com/tawsifurrahman/covid19-radiography-database 
 
 ## Getting Started
-###Make sure Matlab and Python 3 is installed.
-Clone the repository and navigate to the project's root directory in the terminal
-Download the cats dataset. Unzip the folder and place the images in the cloned repository in the folder cats. If the folder does not exist yet, please create one.
-Download the dogs dataset. Unzip the folder and place the images in the cloned repository in the folder dogs. If the folder does not exist yet, please create one.
-Download the wilds dataset. Unzip the folder and place the images in the cloned repository in the folder wilds. If the folder does not exist yet, please create one.
-Start the notebook CNN with Transfer Learning for Multi-Class Classification.ipynb.
+### Make sure Matlab and Python 3 is installed.
 
-## Folder Structure
+ 1. Clone the repository and navigate to the project's root directory in the terminal
+2. Download the mongometry, shenzen and jsrt dataset. Unzip the folder and place original images and their groundtruth label in seperate folders.
+3. Start Train_LungSegmentation_DeepLab.m for lung segmentation. 
+4. Download the COVID-19 Radiography dataset. Unzip the folder and place the images in the cloned repository in another folder. If the folder does not exist yet, please create one.
+5. Run Preprocessing_Images.m and Test_LungSegmentation.m to segment the lung and crop the lung regions of the COVID-19 X-rays dataset and place the cropped X-rays images in one folder. If the folder does not exist, please create one.
+6. Run the python notebooks.
+
 
 ## Running Matlab files
 Make sure Matlab 2020a or later version is installed.
 
-## Running the Jupyter Notebooks
+## Running Python Jupyter Notebooks
+Import all necessary libraries and execute all .ipynb files and save the trained models. <br/>
+Here is the code to train the model:
+
+![TrainModel](https://github.com/kyadanarw/Ensemble-Deep-Learning-for-the-Detection-of-COVID-19-in-Unbalanced-Chest-X-ray-Dataset/blob/DeepLearning/Images/train_model.png)
+
+Here is the output of the function:
+
+![TrainHist](https://github.com/kyadanarw/Ensemble-Deep-Learning-for-the-Detection-of-COVID-19-in-Unbalanced-Chest-X-ray-Dataset/blob/DeepLearning/Images/train_his.png)
+
+![TrainHistoryLoss](https://github.com/kyadanarw/Ensemble-Deep-Learning-for-the-Detection-of-COVID-19-in-Unbalanced-Chest-X-ray-Dataset/blob/DeepLearning/Images/training_history.png)
+<br/>
+Save the trained models.<br/>
+Run EnsembleLearning-HardVoting.ipynb to build an hard-voting based ensemble of CNNs with different approaches.<br/>
+Run EnsembleLearning-SoftVoting.ipynb to build an soft-voting based ensemble of CNNs with different approaches.<br/>
 
 ## Classify Chest Xrays Images
 <p align="justify">Predict the test data using this code.</p>
