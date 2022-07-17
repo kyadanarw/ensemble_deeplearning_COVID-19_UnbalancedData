@@ -1,6 +1,6 @@
 # Ensemble-Deep-Learning-for-the-Detection-of-COVID-19-in-Unbalanced-Chest-X-ray-Dataset
 <p align="justify">The goal of this project is to classify the COVID-19 from normal and pneumonia on Chest X-rays in unbalanced data distribution setting.         
-How I proceeded exactly and what results I achieved can be read in my paper. https://doi.org/10.3390/app112210528</p>
+This GitHub repository serves as the source code for a published paper in https://doi.org/10.3390/app112210528</p>
 
 ## Overview
  <p align="justify">
