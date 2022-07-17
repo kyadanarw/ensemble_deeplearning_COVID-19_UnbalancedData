@@ -2,9 +2,6 @@
 <p align="justify">The goal of this project is to classify the COVID-19 from normal and pneumonia on Chest X-rays in unbalanced data distribution setting.         
 This GitHub repository serves as the source code for a published paper in https://doi.org/10.3390/app112210528</p>
 
-### Citation
-Win, Khin Y., Noppadol Maneerat, Syna Sreng, and Kazuhiko Hamamoto. 2021. "Ensemble Deep Learning for the Detection of COVID-19 in Unbalanced Chest X-ray Dataset" Applied Sciences 11, no. 22: 10528. https://doi.org/10.3390/app112210528 
-Full Paper Access Link: https://www.mdpi.com/2076-3417/11/22/10528 
 
 
 ## Overview
@@ -129,6 +126,8 @@ Run EnsembleLearning-SoftVoting.ipynb to build an soft-voting based ensemble of 
 
 ![HeatMap](https://github.com/kyadanarw/Ensemble-Deep-Learning-for-the-Detection-of-COVID-19-in-Unbalanced-Chest-X-ray-Dataset/blob/DeepLearning/Images/applsci-11-10528-g017-550.jpg)
 
+## Citation
+Win, Khin Y., Noppadol Maneerat, Syna Sreng, and Kazuhiko Hamamoto. 2021. "Ensemble Deep Learning for the Detection of COVID-19 in Unbalanced Chest X-ray Dataset" Applied Sciences 11, no. 22: 10528. https://doi.org/10.3390/app112210528 
 
 ## Link to the Publication
 https://doi.org/10.3390/app112210528
